@@ -1,6 +1,6 @@
 # STRING FUNCTIONS
 
-myStr = 'HelloThereWorld1'
+myStr = 'Hello There World1'
 
 # Capitalize
 print(myStr.capitalize())

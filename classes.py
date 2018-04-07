@@ -55,3 +55,4 @@ print(john.toString())
 
 kate = Customer('Kate Smith', 'ksmith@yahoo.com', 5000)
 print(kate.toString())
+
