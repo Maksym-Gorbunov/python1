@@ -107,3 +107,6 @@ print(len('test'))
 print('test'.__len__())
 
 print(len(dev_3))
+
+
+print(dev_3.__dir__())

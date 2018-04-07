@@ -12,11 +12,11 @@ print(myStr.swapcase())
 print(len(myStr))
 
 # Replace
-print(myStr.replace('World', 'Everyone'))
+print(myStr.replace('World', 'Everyone'))  #replace string and create new variabel, dont overwrite original
 
 # Count
 sub = "H"
-print(myStr.count(sub))
+print(myStr.count(sub))	#count total in string
 
 # Startswith
 print(myStr.startswith('Hello'))
@@ -28,7 +28,7 @@ print(myStr.endswith('!'))
 print(myStr.split())
 
 # find
-print(myStr.find('H'))
+print(myStr.find('H'))  # index start from
 
 # index
 print(myStr.index('H'))
@@ -41,3 +41,8 @@ print(myStr.isalpha())
 
 # Is all numeric
 print(myStr.isnumeric())
+
+
+print(message[:5])
+print(message[3:])
+print(message[0:5])

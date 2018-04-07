@@ -89,7 +89,7 @@ class Employee():
 emp_1 = Employee('John', 'Smith')
 
 emp_1.fullname = 'Bil Json'
-
+'''
 print(emp_1.fname)
 print(emp_1.lname)
 print(emp_1.fullname)
@@ -99,3 +99,12 @@ print(emp_1.fullname.split())
 
 del emp_1.fullname
 print(emp_1.fullname)
+'''
+
+a = 'I'
+b = 'You'
+msg = f'{a} and {b}'
+print(msg)
+#print(dir(msg))
+#print(help(int))
+print(help(str.split))
