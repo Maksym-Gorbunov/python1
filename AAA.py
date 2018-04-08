@@ -64,3 +64,5 @@ cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
 # print(student.keys())
 # print(student.values())
 # print(student.items())
+
+# id(a)	#return adress memory
