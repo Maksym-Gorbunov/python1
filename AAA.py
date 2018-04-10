@@ -1,3 +1,6 @@
+path_to = os.environ.get('USERPROFILE')
+file_path = os.path.join(path_to, 'test.py')	# make path easy and right
+
 # OVERLOAD OPERATORS
 __repr__
 __str__
